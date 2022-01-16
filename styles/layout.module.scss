@@ -1,0 +1,7 @@
+.testGrid {
+    display: grid;
+    div:first-child,
+    div:last-child {
+        grid-column: span 2;
+    }
+}
